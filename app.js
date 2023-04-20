@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.send("It's Working");
 });
 
-app.post("/sample", (req, res) => {
+app.post("/check", (req, res) => {
   const obj = {
     is_main_product_valid: true,
     main_product_registered: false,
